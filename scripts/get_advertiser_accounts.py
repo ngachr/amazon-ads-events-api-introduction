@@ -81,3 +81,6 @@ for acct in dsp_accounts:
     if us_profile:
         print(f"  US Profile ID: {us_profile}")
     print()
+    print("
+=== For your .env file ===")
+print(f"ACCOUNT_ID={dsp_id}   # Use this DSP Advertiser ID as ACCOUNT_ID in create_events.py")
