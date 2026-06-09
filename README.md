@@ -35,7 +35,6 @@ Python scripts to help advertisers and integrators get started with the **Amazon
 3. **Run `get_advertiser_accounts.py`** → Uses `REFRESH_TOKEN` to get a fresh `access_token` and retrieves `account_id` → User pastes both into `.env`
 4. **Run `create_events.py`** → Uses `ACCESS_TOKEN` + `ACCOUNT_ID` + `CLIENT_ID` to send events
 
-## Resources
-📖 Events API Developer Guide: https://advertising.amazon.com/API/docs/en-us/guides/events/events
+## Resource
 📖 API Reference: https://advertising.amazon.com/API/docs/en-us/amazon-ads/1-0/betas#tag/Events
 
