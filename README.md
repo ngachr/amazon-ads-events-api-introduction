@@ -28,10 +28,10 @@ Python scripts to help advertisers and integrators get started with the **Amazon
 
 ---
 
-## Quick Start
+## The Intended Workflow 
 
-```bash
-git clone https://github.com/ngachr/amazon-ads-events-api-introduction.git
-cd amazon-ads-events-api-scripts
-pip install -r requirements.txt
+1. **Set up** → User fills in `CLIENT_ID`, `CLIENT_SECRET`, and `REDIRECT_URI` in `.env`
+2. **Run `get_access_token.py`** → Outputs `access_token` + `refresh_token` → User pastes `REFRESH_TOKEN` into `.env`
+3. **Run `get_advertiser_accounts.py`** → Uses `REFRESH_TOKEN` to get a fresh `access_token` and retrieves `account_id` → User pastes both into `.env`
+4. **Run `create_events.py`** → Uses `ACCESS_TOKEN` + `ACCOUNT_ID` + `CLIENT_ID` to send ev
 
