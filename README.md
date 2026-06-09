@@ -31,7 +31,7 @@ Python scripts to help advertisers and integrators get started with the **Amazon
 ## Quick Start
 
 ```bash
-git clone https://github.com/amzn/amazon-ads-events-api-scripts.git
+git clone [https://github.com/amzn/amazon-ads-events-api-scripts.git](https://github.com/ngachr/amazon-ads-events-api-introduction.git)
 cd amazon-ads-events-api-scripts
 pip install -r requirements.txt
 
