@@ -3,7 +3,7 @@
 [![Amazon Ads](https://img.shields.io/badge/Amazon%20Ads-Events%20API%20v2-orange)](https://advertising.amazon.com/API/docs/en-us/guides/events/events)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 
-Python scripts to help advertisers and integrators get started with the **Amazon Ads Events API** (Conversions API v2), a server-to-server integration for sending real-time or offline conversion events, bypassing browser-based tracking limitations (ad blockers, cookies, privacy settings).
+Python scripts to help advertisers and integrators get started with the **Amazon Ads Events API** (Conversions API v2), a server-to-server integration for sending real-time or offline conversion events, bypassing browser-based tracking limitations.
 
 📺 **[Video Walkthrough](https://youtu.be/nKxD_EyR1P8)**
 
